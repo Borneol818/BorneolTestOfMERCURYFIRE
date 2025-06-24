@@ -1,0 +1,6 @@
+@BorneolTestOfMERCURYFIRE_HostAddress = http://localhost:5271
+
+GET {{BorneolTestOfMERCURYFIRE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

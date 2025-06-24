@@ -29,7 +29,7 @@ namespace BorneolTestOfMERCURYFIRE.Controllers
             {
                 return NotFound("No data found.");
             }
-            return Ok(result);
+            return Content(result, "application/json");
         }
         //新增一筆資料
         //JSON格式範例：
